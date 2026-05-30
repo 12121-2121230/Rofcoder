@@ -25,6 +25,16 @@ By default, the UI checks your Windows Registry for standard Python paths. If yo
 * Target: `C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python311\python.exe`
 * Target: `C:\Program Files\Python312\python.exe`
 
+
+
+### Required
+MinGW: C++ and C? Well, what else?
+
+Python: It was made in Python. I used PyInstaller. So how do you compile .py and .pyw? 
+
+
+PyInstaller: You? Bro, .py and .pyw is needed for compiling. 
+
 ### 🛠️ MinGW64 Path Configuration
 If clicking "BUILD EXE" in C++ mode yields a `g++ is not recognized` terminal panic, check your paths variable:
 1. Hit `Win + R`, type `sysdm.cpl`, and press Enter.
