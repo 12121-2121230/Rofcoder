@@ -9,6 +9,8 @@ A lightweight GUI frontend wrapper designed to make Python packaging and C++ com
 
 [With the web feature, do not download malware. This needs PyInstaller, Python and MinGW to work.]
 
+To install, Go to Dist on my releases. Not Build.
+
 ## 🚀 Getting Started
 1. Select your target environment (Python or C++).
 2. Paste or write your code directly into the editor pane.
