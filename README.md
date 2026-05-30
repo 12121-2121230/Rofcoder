@@ -7,7 +7,7 @@ A lightweight GUI frontend wrapper designed to make Python packaging and C++ com
 * **Integrated Directory Explorer:** Keep track of your system folders and project paths directly from the UI panel.
 
 
-[With the web feature, do not download malware. This needs PyInstaller, Python and MinGW to work.]
+[With the web feature, do not download malware. This needs PyInstaller, Python and MinGW to work. Move Rofcoder.exe into the internal folder, and copy python's 3.x .dll right into Rofcoder's folder]
 
 To install, Go to Dist on my releases. Not Build.
 
