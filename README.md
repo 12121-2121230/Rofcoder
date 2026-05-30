@@ -54,4 +54,7 @@ The integrated blue **DOWNLOAD** module leverages raw HTTP requests to fetch sni
 2. **Never Fetch Pre-Compiled Files:** Do not pass an existing binary download URL into the editor box. It will attempt to wrap an `.exe` inside another `.exe`, completely corrupting the architecture.
 3. **No Dynamic Payload Execution:** Avoid using `eval()` or `exec()` commands inside your code targets when pulling web lines down to remain securely under the radar of heuristic defenses.
 
+
+Use Rofcoder.pyw if it returns .dll errors that are hard to remove.
+
 Enjoy and ***BYE!!***
