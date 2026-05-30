@@ -46,18 +46,6 @@ If clicking "BUILD EXE" in C++ mode yields a `g++ is not recognized` terminal pa
 
 ---
 
-## ⚠️ Complete Troubleshooting Matrix
-
-
-| Error Output Trace | Primary Root Cause | Instant Resolution Step |
-| :--- | :--- | :--- |
-| `ModuleNotFoundError` | The script relies on an unbundled pip dependency. | Run `pip install <module>` in your base Windows CMD. |
-| `g++: fatal error: no input files` | The editor panel code text was empty. | Write your code functions inside the panel editor window. |
-| `Permission Denied (0x5)` | Output directory is locked by a running instance. | Open Task Manager, kill the prior test build `.exe`, retry. |
-| `PyInstaller bootloader mismatch` | Anti-virus isolated the base temporary bootloader. | Whitelist the temporary path inside Windows Defender exclusions. |
-
----
-
 ## 🛠️ The Web Feature: Secure Fetch Protocol
 
 The integrated blue **DOWNLOAD** module leverages raw HTTP requests to fetch snippets directly. Follow these ground rules to avoid breaking your builds:
