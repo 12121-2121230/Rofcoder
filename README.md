@@ -9,7 +9,7 @@ A lightweight GUI frontend wrapper designed to make Python packaging and C++ com
 
 [With the web feature, do not download malware. This needs PyInstaller, Python and MinGW to work. Move Rofcoder.exe into the internal folder, and copy python's 3.x .dll right into Rofcoder's folder]
 
-To install, Go to Dist on my releases. Not Build.
+To install, go to my releases, and download Rofcoder_Setup.msi!
 
 lol.spec was an example of a spec for an exe, the actual one is Rofcoder.spec!
 
