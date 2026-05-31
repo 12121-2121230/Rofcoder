@@ -43,7 +43,9 @@ Rofcoder is built on Python and automates terminal compilation tools [1]. To suc
 
 ## 🔧 Advanced Configuration & Environment Variables
 
-If Rofcoder cannot automatically detect your toolchains, you must define them manually in your Windows System Environment Variables or configure a `config.json` inside the application directory.
+If Rofcoder cannot automatically detect your toolchains, you must define them manually in your Windows System Environment Variables.
+
+Luckily, I built `sysdm.pyw`. This file installs PyInstaller and MinGW, sets it to your environment variables, and doesn't do anything else. Clean, good, and superior if you can't set your environment variables up good.
 
 ### 🐍 Python Path Overrides
 By default, the UI checks your Windows Registry for standard Python paths. If you are running an environment manager like Anaconda, Miniconda, or a local virtual environment (`venv`), paste your direct path override:
