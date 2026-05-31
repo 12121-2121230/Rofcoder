@@ -11,6 +11,8 @@ A lightweight GUI frontend wrapper designed to make Python packaging and C++ com
 
 To install, Go to Dist on my releases. Not Build.
 
+lol.spec was an example of a spec for an exe, the actual one is Rofcoder.spec!
+
 ## 🚀 Getting Started
 1. Select your target environment (Python or C++).
 2. Paste or write your code directly into the editor pane.
