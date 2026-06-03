@@ -3,7 +3,7 @@ A lightweight GUI frontend wrapper designed to make Python packaging and C++ com
 
 ## ⚡ Quick-Start (For Beginners)
 Follow these 4 steps to get up and running immediately:
-1. **Download:** Go to the Releases tab and download `Rofcoder_Setup.msi`.
+1. **Download:** Go to the Releases tab and download `Rofcoder_Setup.msi`, and make sure you are on the C: Drive and Program Files is located there.
 2. **Move Executable:** After installation, move `Rofcoder.exe` into the internal folder.
 3. **Add the DLL:** Copy your system's `python3x.dll` (e.g., `python311.dll`) directly into the Rofcoder folder.
 4. **Launch:** Run the app! (If you face `.dll` errors, just double-click `Rofcoder.pyw` instead, and if you have env errors, use sysdm.pyw).
@@ -27,7 +27,7 @@ Follow these 4 steps to get up and running immediately:
 ---
 
 ## 📦 Required Dependencies & Core Architecture
-Rofcoder is built on Python and automates terminal compilation tools [1]. To successfully build standalone executables, ensure your system has these prerequisites installed:
+Rofcoder is built on Python and automates terminal compilation tools. To successfully build standalone executables, ensure your system has these prerequisites installed:
 
 ### 🐍 Python Environment & PyInstaller (For Python Scripts)
 * **The Core:** Python 3.x must be installed natively on your system [1].
@@ -58,7 +58,7 @@ If clicking "BUILD EXE" in C++ mode yields a `g++ is not recognized` terminal pa
 2. Navigate to **Advanced** ➡️ **Environment Variables**.
 3. Under **System Variables**, find `Path` and click **Edit**.
 4. Add your MinGW bin path (Default: `C:\msys64\ucrt64\bin` or `C:\MinGW\bin`).
-
+Or, Install `sysdm.pyw`!
 ---
 
 ## 🔒 The Web Feature: Secure Fetch Protocol
