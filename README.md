@@ -1,67 +1,89 @@
-## 🛠️ Rofcoder v6.0
-A lightweight GUI frontend wrapper designed to make Python packaging and C++ compilation entirely seamless.
+🏢 Rofcoder v6.0.0.0
 
-## ⚡ Quick-Start (For Beginners)
-Follow these steps to get up and running immediately:
-1. **Download:** Go to the Releases tab and download `Rofcoder_Setup.msi`.
-2. **Launch:** Run the application via the desktop shortcut or the installation directory.
-3. **Source Verification:** To inspect the underlying logic or run the application directly from source, you can execute the `Rofcoder.pyw` script.
+Rofcoder is a high-performance desktop application designed to streamline cross-language build workflows across Python and C++ environments, providing standardized executable generation within a unified graphical interface.
 
----
+No license, open-source.
 
-## ✨ Key Features
-* **Multi-Language Support:** Quickly switch between bundling Python (`.py`) scripts and compiling C++ (`.cpp`) code.
-* **Backend Automation:** Runs PyInstaller or MinGW (`g++`) under the hood so you do not have to touch the terminal.
-* **Integrated Directory Explorer:** Keep track of your system folders and project paths directly from the UI panel.
+🚀 Executive Summary
 
----
+Rofcoder enables developers to:
 
-## 🚀 How to Build Your First EXE
-1. Select your target environment (**Python** or **C++**).
-2. Paste or write your code directly into the editor pane.
-3. Click `BUILD EXE ⚡` and select your output folder to generate your standalone Windows executable.
+Simplify executable generation workflows
+Standardize compilation pipelines across languages
+Reduce dependency on manual terminal operations
+Improve local development efficiency and consistency
+⚡ Deployment Overview
+Standard Installation Procedure
+Download Rofcoder_Setup.msi from the official release channel
+Execute the installer with standard or elevated privileges
+Launch via Windows Start Menu integration
+🧩 Core Capabilities
+🐍 Python Build Engine
+PyInstaller-based packaging system
+Supports .py and .pyw applications
+Automated dependency handling layer
+🛠️ C++ Compilation Engine
+MinGW / MinGW64 toolchain integration
+g++ compilation backend
+Lightweight executable output generation
+📁 Workspace Management
+Integrated directory explorer
+Persistent project path tracking
+Structured build output handling
+🏗️ Build Pipeline
+Select target runtime environment (Python / C++)
+Input source code into editor interface
+Initiate build via BUILD EXE ⚡
+System generates standalone Windows executable
 
-*Note: The application utilizes a standard configuration template (`Rofcoder.spec`) to manage custom PyInstaller compilation flags.*
+📌 Build configuration is managed via Rofcoder.spec to ensure consistent and reproducible compilation behavior.
 
----
+⚙️ System Requirements
+Python Runtime Layer
+Python 3.x (x64 recommended; x86 supported)
+PyInstaller (pip install pyinstaller)
+Native Compilation Layer
+MinGW / MinGW64
+Proper g++ PATH configuration
+🔧 Advanced Configuration Module
+System Utility (sysdm.pyw)
 
-## 📦 Required Dependencies & Core Architecture
-Rofcoder automates terminal compilation tools. To successfully build standalone executables, ensure your system has these prerequisites installed:
+Automates:
 
-### 🐍 Python Environment & PyInstaller (For Python Scripts)
-* **The Core:** Python 3.x must be installed natively on your system.
-* **The Bundler:** PyInstaller must be installed (`pip install pyinstaller`) to convert scripts.
-* **File Formats:** Rofcoder automates compilation for both standard console scripts (`.py`) and windowed GUI applications (`.pyw`).
+PyInstaller validation
+MinGW toolchain verification
+Environment variable configuration
+🧭 Environment Variables
+Python Path Override Examples
+C:\Program Files\Python312\python.exe
+C:\Users\<User>\AppData\Local\Programs\Python\Python311\python.exe
+MinGW64 PATH Configuration
+C:\msys64\ucrt64\bin
+C:\MinGW\bin
+🔐 Code Ingestion Module
 
-### 🛠️ MinGW Toolchain (For C/C++ Code)
-* **The Compiler:** MinGW or MinGW64 must be installed to compile low-level code.
-* **Languages Supported:** This toolchain provides the necessary binary environment to compile C and C++ source code via `g++`.
+The integrated DOWNLOAD system retrieves source code via HTTP-based raw endpoints.
 
----
+Enforcement Rules
+Only raw text sources are supported
+Precompiled binaries (.exe) are rejected
+Validation occurs prior to compilation stage
+🧾 Installation Architecture Notes
 
-## 🔧 Advanced Configuration & Environment Variables
+Rofcoder supports dual deployment modes:
 
-If Rofcoder cannot automatically detect your toolchains, you can use the included `sysdm.pyw` utility. This helper script automates the installation of PyInstaller, checks for MinGW, and configures the required environment variables.
+🧳 EXE Mode: Portable execution environment
+🪟 MSI Mode: Fully integrated Windows installation
 
-### 🐍 Python Path Overrides
-By default, the UI checks the Windows Registry for standard Python paths. If you are running an environment manager like Anaconda, Miniconda, or a local virtual environment (`venv`), paste your direct path override:
-* Example 1: `C:\Users\<YourUsername>\AppData\Local\Programs\Python\Python311\python.exe`
-* Example 2: `C:\Program Files\Python312\python.exe`
+📌 unins000.exe may appear in non-MSI builds and should be ignored in MSI-managed deployments, as it originates from legacy packaging components and does not affect MSI-based lifecycle management.
 
-### 🛠️ MinGW64 Path Configuration (C++ Mode)
-If the system yields a `g++ is not recognized` error, you can manually update your environment variables:
-1. Press `Win + R`, type `sysdm.cpl`, and press **Enter**.
-2. Navigate to the **Advanced** tab and click **Environment Variables**.
-3. Under **System Variables**, locate `Path` and click **Edit**.
-4. Add your MinGW bin path (Default: `C:\msys64\ucrt64\bin` or `C:\MinGW\bin`).
+📈 Operational Benefits
+Standardized build automation workflow
+Reduced manual compilation overhead
+Cross-language support in a unified interface
+Improved onboarding experience for developers
+🎉 Conclusion
 
----
+Rofcoder v6.0.0.0 delivers a unified and efficient desktop build automation experience for modern development environments.
 
-## 🔒 Code Fetch Module
-
-The integrated **DOWNLOAD** module leverages raw HTTP requests to fetch source code snippets directly into the editor pane. Please follow these guidelines to prevent build failures:
-
-1. **Use Raw Endpoints:** Ensure your source web links point explicitly to raw text fields (such as GitHub Raw links).
-2. **Source Code Only:** Do not pass URLs of pre-compiled binaries (`.exe`) into the text box. The system is designed to compile raw source scripts, and injecting a binary will break the compilation architecture.
----
-Enjoy and ***BYE!!***
+Enjoy and BYE!! 🚀
