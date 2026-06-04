@@ -5,8 +5,7 @@ A lightweight GUI frontend wrapper designed to make Python packaging and C++ com
 Follow these 4 steps to get up and running immediately:
 1. **Download:** Go to the Releases tab and download `Rofcoder_Setup.msi`, and make sure you are on the C: Drive and Program Files is located there.
 2. **Move Executable:** After installation, move `Rofcoder.exe` into the internal folder.
-3. **Add the DLL:** Copy your system's `python3x.dll` (e.g., `python311.dll`) directly into the Rofcoder folder.
-4. **Launch:** Run the app! (If you face `.dll` errors, just double-click `Rofcoder.pyw` instead, and if you have env errors, use sysdm.pyw).
+3. **Launch:** Run the app! (If you face `.dll` errors, just double-click `Rofcoder.pyw` instead, and if you have env errors, use sysdm.pyw).
 
 ---
 
