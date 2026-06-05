@@ -41,7 +41,7 @@ Transparent Automation: The validation module functions solely as a local path-d
 1. Initial Setup & Validation
 Launch Rofcoder via the Windows Start Menu or the portable .msi.
 Navigate to the Settings or Environment Configuration panel.
-Verify that your local Python and MinGW system paths are correctly mapped. The integrated env_validator.pyw simplifies this by verifying existing local installations and mapping them to the application path.
+Verify that your local Python and MinGW system paths are correctly mapped. 
 Preparing Your Source Code
 You can load your source code into the editor via two methods:
 Local Import: Use the integrated directory explorer to open an existing local script.
